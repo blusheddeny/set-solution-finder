@@ -13,11 +13,14 @@ body{
     min-height: 100%;
     display: grid;
     place-items: center;
-    line-height: 3rem;
+    line-height: 5REM;
+}
+footer{
+    color: white;
 }
 .wrapper{
-    /*width: 33.33%;*/
-    height: 50%;
+    width: 50%;
+    height: auto;
     background-color: #ffffff6d;
     padding: 2%;
     border-radius: 2rem;
@@ -37,4 +40,7 @@ button{
     background-color: #fcdf3f;
     width: 30%;
     font-size: 1rem;
+}
+.examples > a{
+    margin: 1rem;
 }
